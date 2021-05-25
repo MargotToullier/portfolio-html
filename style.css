@@ -334,6 +334,7 @@ p, li {
 
 .no-link {
   color: black;
+  font-weight: bold;
 }
 
 a:link {
