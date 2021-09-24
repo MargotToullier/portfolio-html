@@ -94,7 +94,7 @@ p, li {
 
   color: #fff;
   border-radius: 100px;
-  background: #e05151;
+  background: #fc8181;
 }
 
 
@@ -130,13 +130,13 @@ p, li {
   margin: 10vh 0 0 0;
   text-align: center;
   display: flex;
-  background-color: #e05151;
+  background-color: #fc8181;
   color: white;
 }
 
 .title {
   text-align: left;
-  color: #e05151;
+  color: #fc8181;
 }
 
 .about .container-fluid {
@@ -168,7 +168,7 @@ p, li {
   margin-left: 0.8em;
   padding: 0.5em 1em;
 
-  color: #e05151;
+  color: #fc8181;
   border-radius: 100px;
   background: white;
 }
@@ -181,12 +181,12 @@ p, li {
 
   color: #fff;
   border-radius: 100px;
-  background: #e05151;
+  background: #fc8181;
 }
 
 .about .container-fluid a {
   text-decoration: none;
-  color: #e05151;
+  color: #fc8181;
 }
 
 .about .container-fluid h5 {
@@ -197,7 +197,7 @@ p, li {
 *******************************************************************/
 
 .container-nav{
-  background-color: #e05151ea;
+  background-color: #fc8181ea;
   text-align: center;
 }
 
@@ -332,9 +332,43 @@ p, li {
   margin-right: -50px;
 }
 
-.no-link {
-  color: black;
+.projet5 {
+  background-size: 15em;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  box-shadow: 0 1px 5px 1px rgb(0 0 0 / 30%);
+  border-radius: 5px;
+}
+
+.projet5:hover{
+	margin-left: -50px;
+  margin-right: -50px;
+}
+
+.projet5-color {
+  color:black;
   font-weight: bold;
+}
+
+.projet6 {
+  background-size: 17em;
+  -webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  box-shadow: 0 1px 5px 1px rgb(0 0 0 / 30%);
+  border-radius: 5px;
+}
+
+.projet6:hover{
+	margin-left: -50px;
+  margin-right: -50px;
+}
+
+.projet6-color {
+  color:black;
+}
+
+.no-link {
+  color: white;
 }
 
 a:link {
@@ -402,7 +436,7 @@ a:link {
 *******************************************************************/
 
 .formations {
-  background-color: #e05151;
+  background-color: #fc8181;
 }
 
 .formations .title {
@@ -423,6 +457,7 @@ a:link {
 }
 
 
+
 /** Page --> Footer/Contact
 *******************************************************************/
 
@@ -434,6 +469,7 @@ a:link {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .social-icons {
